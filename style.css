@@ -1,6 +1,6 @@
  :root {
-    --cor-principal: #7700ff;
-    --cor-secundaria: #220080;
+    --cor-principal: #9400d3;
+    --cor-secundaria: #7e0080;
     --cor-texto: #333;
  }
  
@@ -56,24 +56,30 @@
         }
 
         .hero {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background-image: url(/assets/BG.jpg);
+            background-size: cover;
             color: white;
-            padding: 6rem 2rem;
+            padding: 1.5rem 2rem;
             text-align: center;
             min-height: 500px;
             display: flex;
             flex-direction: column;
             justify-content: center;
+            align-items: center;
         }
 
         .hero h1 {
             font-size: 3rem;
             margin-bottom: 1rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            line-height: 45px;
         }
 
-        .hero p {
-            font-size: 1.2rem;
-            margin-bottom: 2rem;
+        .highlight {
+            background: rgba(255, 255, 255, 0.597);
+            padding: 5px;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
 
         .cta-button {
@@ -102,6 +108,21 @@
             100% {
                 transform: scale(1);
             }
+        }
+        .glass-card {
+            z-index: 10;
+            padding: 3rem;
+            background: rgba(255, 255, 255, 0.05); 
+            backdrop-filter: blur(15px); 
+            border: 1px solid rgba(255, 255, 255, 0.1); 
+            border-radius: 20px;
+            text-align: center;
+            color: white;
+            max-width: 600px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
         .container {
@@ -157,6 +178,18 @@
             color: white;
             text-align: center;
             padding: 2rem;
+        }
+
+        a {
+            color: white;
+            margin: 0 0.5rem;
+            display: inline-block; 
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+        
+        a:hover {
+            transform: scale(1.1);
         }
 
         .profile-pic {  
