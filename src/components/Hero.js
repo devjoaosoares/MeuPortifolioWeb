@@ -1,17 +1,12 @@
 import React from 'react';
+import AnimatedBackground from './BackgroundAnimacao';
 
 const Hero = () => {
   return (
     <section className="hero">
       <div className="hero-bg">
-        <span className="shape shape-1" />
-        <span className="shape shape-2" />
-        <span className="shape shape-3" />
-        <span className="shape shape-4" />
-        <span className="shape shape-5" />
-        <span className="shape shape-6" />
+        <AnimatedBackground />
       </div>
-
       <div className="hero-card">
         <div className="hero-avatar">
           <img className='avatarImg' src="/assets/fotodeperfil.png" alt="João Soares" />

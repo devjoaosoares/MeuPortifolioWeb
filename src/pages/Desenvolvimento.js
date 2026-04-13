@@ -9,15 +9,15 @@ const Desenvolvimento = () => {
   const projects = [
     {
       id: 1,
-      img: '',
+      img: '../assets/LogoSvg.svg',
       title: 'Claridade',
-      description: 'Descrição detalhada do projeto Claridade. Aqui você pode adicionar mais informações sobre o projeto, tecnologias utilizadas, desafios enfrentados e resultados obtidos.'
+      description: 'SAAS Em Desenvolvimento, feito totalmente do zero, utilizando React, Node.js(Express) e Supabase. O projeto é uma plataforma de geração de relatórios automáticos, onde o usuário pode conectar suas contas de anúncios e redes sociais para gerar relatórios personalizados e detalhados sobre o desempenho de suas campanhas e estratégias de marketing.'
     },
     {
       id: 2,
-      img: '/assets/developing2.png',
-      title: 'Projeto de Desenvolvimento 2',
-      description: 'Descrição detalhada do projeto de desenvolvimento 2. Aqui você pode adicionar mais informações sobre o projeto, tecnologias utilizadas, desafios enfrentados e resultados obtidos.'
+      img: '/assets/portifolioprint.png',
+      title: 'Meu Portifólio Web',
+      description: 'Projeto Open Source, Utilizando React, Repositório simples para quem deseja aprender a criar um portifólio web do zero, utilizando as melhores práticas de desenvolvimento web, incluindo design responsivo, animações suaves e uma estrutura de código organizada.'
     },
     {
       id: 3,
